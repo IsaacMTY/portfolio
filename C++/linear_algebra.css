@@ -1,0 +1,29 @@
+.article{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  height:auto;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+main *{
+  background: white;
+  color: black;
+  font-family: 'Bitter', serif;
+}
+.article *{
+  padding-bottom:20px;
+  text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+p {
+  line-height: 200%;
+}
+iframe{
+  min-height: 300px;
+}
+#l1{
+  background: url("../img/lit1.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 500px;
+}

@@ -1,0 +1,26 @@
+main {
+	scroll-snap-type: block mandatory;
+}
+.parts {
+	padding:150px;
+	scroll-snap-align: start;
+	height: 100vh;
+
+	&:nth-of-type(odd) {
+		background: white;
+	}
+	&:nth-of-type(odd) h2, .parts:nth-of-type(odd) h3, .parts:nth-of-type(odd) p{
+		background: none;
+		color:black;
+	}
+	& h2 {
+		font-family: 'Bitter', serif;
+		font-size: 100px;
+	}
+	& h3 {
+		font-size: 40px;
+	}
+	& p {
+		font-size: 20px;
+	}
+}

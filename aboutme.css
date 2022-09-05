@@ -1,0 +1,63 @@
+main *{
+	background: #262626;
+	font-family: 'Bitter', serif;
+}
+footer{
+	background: none;
+}
+.pic{
+	height:700px;
+	width:100%;
+	background: url("img/blacksand.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+a{
+	text-decoration: none;
+}
+.Profile{
+	background: url("img/me.jpg") no-repeat center;
+	background-size: cover;
+	width: 300px;
+	height:auto;
+	min-height: 500px;
+}
+.intro-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  position: absolute;
+  top:250px;
+  left:22%;
+  right:22%;
+  background: rgba(255, 255, 255,0.9);
+	height:auto;
+	min-height: 500px;
+}
+.description{
+	padding:10px;
+	background: none;
+	line-height: 175%;
+}
+.description p{
+	font-size: 20px;
+}
+.description h2{
+	font-size: 40px;
+}
+.description *{
+	padding: 20px;
+	color: black;
+	background: none;
+}
+
+.Information{
+	font-size: 17px;
+  box-shadow: 0 0 50px 0 black;
+	padding: 80px;
+}
+.Information *{
+	text-align: center;
+}
+.Information div{
+	padding: 30px;
+}
